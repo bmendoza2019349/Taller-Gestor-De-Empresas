@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "65e456039307f46f929c986d"
+  },
+  "name": "a",
+  "businessActivity": "Programing",
+  "yearsOfExperience": 5,
+  "impactLevel": "impacto financiero",
+  "businessCategory": "micro empresa",
+  "user": {
+    "$oid": "65e4437e9280a930662b29fb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e456159307f46f929c9870"
+  },
+  "name": "prueba d",
+  "user": {
+    "$oid": "65e4437e9280a930662b29fb"
+  },
+  "businessActivity": "programacion",
+  "businessCategory": "grande empresa",
+  "impactLevel": "impacto al cliente",
+  "yearsOfExperience": 12
+},
+{
+  "_id": {
+    "$oid": "65e4562c9307f46f929c9873"
+  },
+  "name": "c",
+  "businessActivity": "Programing",
+  "yearsOfExperience": 15,
+  "impactLevel": "impacto financiero",
+  "businessCategory": "mediana empresa",
+  "user": {
+    "$oid": "65e4437e9280a930662b29fb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e4563b9307f46f929c9876"
+  },
+  "name": "d",
+  "businessActivity": "Programing",
+  "yearsOfExperience": 20,
+  "impactLevel": "impacto financiero",
+  "businessCategory": "grande empresa",
+  "user": {
+    "$oid": "65e4437e9280a930662b29fb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e516b5210fa2d321a425ce"
+  },
+  "name": "e",
+  "businessActivity": "programacion",
+  "yearsOfExperience": 12,
+  "impactLevel": "impacto al cliente",
+  "businessCategory": "pequeña empresa",
+  "user": {
+    "$oid": "65e4437e9280a930662b29fb"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e51e930a65922779d349ca"
+  },
+  "name": "f",
+  "businessActivity": "programacion",
+  "yearsOfExperience": 15,
+  "impactLevel": "impacto al cliente",
+  "businessCategory": "grande empresa",
+  "user": {
+    "$oid": "65e4437e9280a930662b29fe"
+  },
+  "__v": 0
+}]

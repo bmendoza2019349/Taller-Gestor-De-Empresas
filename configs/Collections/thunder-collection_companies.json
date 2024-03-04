@@ -1,0 +1,127 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "companies",
+    "dateExported": "2024-03-04T01:27:14.763Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b436e62b-557c-44d0-9099-037ebea0ae6e",
+            "colId": "87a482c4-edd0-4b21-94b9-8599dcf11cae",
+            "containerId": "",
+            "name": "companiesPut",
+            "url": "http://localhost:3000/managerSystem/v1/compani/65e456159307f46f929c9870",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-03-03T09:19:16.806Z",
+            "modified": "2024-03-04T00:44:53.533Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"prueba d\",\n  \"businessActivity\": \"programacion\",\n  \"yearsOfExperience\": \"12\",\n  \"impactLevel\": \"impacto al cliente\",\n  \"businessCategory\": \"grande empresa\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d56afac0-dab0-4f44-b04a-b661a86acd87",
+            "colId": "87a482c4-edd0-4b21-94b9-8599dcf11cae",
+            "containerId": "",
+            "name": "companiesPost",
+            "url": "http://localhost:3000/managerSystem/v1/compani",
+            "method": "POST",
+            "sortNum": 15000,
+            "created": "2024-03-03T23:44:37.937Z",
+            "modified": "2024-03-04T01:06:27.919Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"f\",\n  \"businessActivity\": \"programacion\",\n  \"yearsOfExperience\": \"15\",\n  \"impactLevel\": \"impacto al cliente\",\n  \"businessCategory\": \"grande empresa\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ece94eda-1ff2-4523-858a-9e4e422398a4",
+            "colId": "87a482c4-edd0-4b21-94b9-8599dcf11cae",
+            "containerId": "",
+            "name": "companiesAZ",
+            "url": "http://localhost:3000/managerSystem/v1/compani/companies-az",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-03T09:54:38.734Z",
+            "modified": "2024-03-03T09:55:05.650Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e732371c-3a47-4511-8057-45fa1d3207bb",
+            "colId": "87a482c4-edd0-4b21-94b9-8599dcf11cae",
+            "containerId": "",
+            "name": "companiesZA",
+            "url": "http://localhost:3000/managerSystem/v1/compani/companies-za",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-03T09:56:42.008Z",
+            "modified": "2024-03-03T09:57:28.810Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4769b3e8-2fd7-4d31-8e4c-1bb737b99a6f",
+            "colId": "87a482c4-edd0-4b21-94b9-8599dcf11cae",
+            "containerId": "",
+            "name": "companiesYears",
+            "url": "http://localhost:3000/managerSystem/v1/compani/years",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-03-03T10:43:30.902Z",
+            "modified": "2024-03-03T10:52:07.737Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"startYear\": 5,\n  \"endYear\": 30\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "534541ba-f7f0-43f7-a052-7e277ca3933f",
+            "colId": "87a482c4-edd0-4b21-94b9-8599dcf11cae",
+            "containerId": "",
+            "name": "companiesCategory",
+            "url": "http://localhost:3000/managerSystem/v1/compani/category",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-03-03T11:07:16.595Z",
+            "modified": "2024-03-03T11:09:00.097Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"businessCategory\": \"pequeña empresa\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b381483c-effa-4d02-902c-89310a64bc38",
+            "colId": "87a482c4-edd0-4b21-94b9-8599dcf11cae",
+            "containerId": "",
+            "name": "companiesExcel",
+            "url": "http://localhost:3000/managerSystem/v1/compani/companies/report",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-03-03T11:40:10.721Z",
+            "modified": "2024-03-03T11:40:34.834Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

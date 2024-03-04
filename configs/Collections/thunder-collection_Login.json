@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Login",
+    "dateExported": "2024-03-04T01:26:44.972Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e849b516-02fb-4fe5-9a57-b57548994eb4",
+            "colId": "d1e02aff-f9e2-4907-b6ae-98d239dc76d8",
+            "containerId": "",
+            "name": "loginAdministrator",
+            "url": "http://localhost:3000/managerSystem/v1/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-03T01:10:35.119Z",
+            "modified": "2024-03-04T00:50:39.917Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usuario\": \"Usuario2\",\n  \"password\": \"1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
