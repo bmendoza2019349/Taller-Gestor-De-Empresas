@@ -54,7 +54,7 @@ async function addUsers() {
             password: '1234',
             phone: '12345678',
             role: 'ADMINISTRATOR',
-            estado: true,
+            state: true,
         },
         {
             name: 'Usuario2',
@@ -62,7 +62,7 @@ async function addUsers() {
             password: '1234',
             phone: '87654321',
             role: 'ADMINISTRATOR',
-            estado: true,
+            state: true,
         },
         {
             name: 'Usuario3',
@@ -70,7 +70,7 @@ async function addUsers() {
             password: '1234',
             phone: '36925814',
             role: 'ADMINISTRATOR',
-            estado: true,
+            state: true,
         },
         // Puedes agregar más usuarios predefinidos según sea necesario
     ];

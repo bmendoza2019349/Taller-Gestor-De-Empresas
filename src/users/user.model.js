@@ -37,9 +37,9 @@ const UserSchema = mongoose.Schema({
 
 // Modificar el método toJSON para excluir campos no deseados en la respuesta
 UserSchema.methods.toJSON = function () {
-  const { __v, password, _id, ...usuario } = this.toObject();
-  usuario.uid = _id;
-  return usuario;
+  const { __v, password, _id, ...user } = this.toObject();
+  user.uid = _id;
+  return user;
 };
 
 // Exportar el modelo de usuario

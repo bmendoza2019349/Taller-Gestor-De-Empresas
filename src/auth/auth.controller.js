@@ -2,6 +2,7 @@ import bcrypt from 'bcryptjs';
 import User from '../users/user.model.js';
 import { generarJWT } from '../helpers/generate-jwt.js';
 
+let readToken = '';
 export const login = async (req, res) => {
     const { usuario, password } = req.body;
 
@@ -43,6 +44,8 @@ export const login = async (req, res) => {
         // Generar el JWT de forma segura
         const token = await generarJWT(user.id);
 
+        readToken = token;
+
         res.status(200).json({
             msg: 'Acces granted',
             user,
@@ -56,3 +59,5 @@ export const login = async (req, res) => {
         });
     }
 };
+
+export {readToken};

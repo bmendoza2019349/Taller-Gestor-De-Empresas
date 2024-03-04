@@ -8,3 +8,16 @@ export const validarCampos = (req, res, next) => {
 
     next();
 }
+
+// Middleware para validar categorias
+export const validarcategorias = (req, res, next) => {
+    const { businessCategory } = req.body;
+    const allowedCategories = ["pequeña empresa", "micro empresa", "mediana empresa", "grande empresa"];
+
+    if (!allowedCategories.includes(businessCategory.toLowerCase())) {
+        return res.status(400).json({ error: "Categoría de empresa no válida", 
+        msg: `Categorias validas ["pequeña empresa", "micro empresa", "mediana empresa", "grande empresa"]`  });
+    }
+
+    next();
+};
